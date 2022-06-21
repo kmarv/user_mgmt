@@ -70,6 +70,7 @@ function Register() {
             onChange={(e) => setPassword(e.target.value)}
           />
 
+
           <input
             type="password"
             value={confirmPassword}
@@ -88,5 +89,6 @@ function Register() {
     </div>
   );
 }
+
 
 export default Register;
